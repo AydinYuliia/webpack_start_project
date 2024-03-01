@@ -374,6 +374,11 @@
     //     width: 100%;
     //   }
 
+
+    .button-container {
+      text-align: center;
+    }
+
     .text-box_list :hover {
       color: $red2;
     }
@@ -389,15 +394,16 @@
    
 
     .halil:hover .halil2 {
-       color: blue;
+       color: #2B5AE1;
     }
 
     .halil:hover .list-item_list-li{
-       color: red;
+       color: #E63A28;
+       font-weight: 700;
     }
 
     .halil:hover .span-nom{
-       color: blue;
+       color: #2B5AE1;
     }
 
     .round-button :hover .button_svg path {
