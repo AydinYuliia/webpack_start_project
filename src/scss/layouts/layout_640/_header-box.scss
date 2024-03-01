@@ -1,0 +1,45 @@
+.form-box__form{
+    position: relative;
+    margin-left: 12px;
+    margin-right: 12px;
+    // flex-grow: 1;
+    // order: -2;
+    width: 100%;
+    
+   
+  }
+
+.form-box {
+  flex-grow: 1;
+  order: -2;
+  margin-left: 30px;
+  margin-right: 20px;
+  position: relative;
+}
+
+  .form-box__top {
+    position: absolute;
+    left: 205px;
+    padding-top: 12px;
+    // position: fixed;
+    top: 0;
+    left: 149px;
+    width: 68%;
+    padding-top: 12px;
+  }
+
+
+
+.navfirst-burgermenu {
+  display: none;
+}
+
+.header-box {
+  position: relative;
+}
+
+.language-box {
+  position: absolute;
+  right: 22px;
+  top: 0px;
+}

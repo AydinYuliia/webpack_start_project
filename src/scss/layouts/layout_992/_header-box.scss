@@ -1,0 +1,66 @@
+
+
+.nav-menu {
+  position: absolute;
+  // left: 205px;
+  top: 0;
+  padding-top: 12px; 
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.form-box__top {
+  position: relative;
+  padding-bottom: 0;
+  justify-content: flex-start;
+  left: -10%;
+}
+
+.form-box__form {
+  padding: 0;
+   margin: 0;
+}
+
+.form-box__icon {
+  width: 20%;
+  position: absolute;
+  top: 31%;
+  right: -9px;
+}
+
+.form-box {
+  padding-bottom: 12px;
+}
+
+.container-slogan {
+  padding-top: 10px;
+  padding-bottom: 3px;
+}
+
+
+// .language-box {
+//   position: absolute;
+//   right: 118px;
+//   top: 0px;
+// }
+
+.nav-box__link:hover {
+  text-decoration: underline;
+}
+
+
+.language-box_dwnsvg:hover {
+  transform: scaleY(-1); /* Перевернути по вертикалі */
+}
+
+.language-box_dwnsvg {
+  transition: transform 0.3s ease;
+}
+
+// .language-box_dwnsvg {
+//   transition: opacity 0.3s ease;
+// }
+
+// .language-box_dwnsvg:hover {
+//   opacity: 0;
+// }

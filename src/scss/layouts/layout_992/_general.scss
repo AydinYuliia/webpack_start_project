@@ -1,0 +1,408 @@
+// .container_main {
+//     display: flex;
+//   }
+  
+//   .col-left {
+//     width: 60%;
+//   }
+  
+//   .col-right {
+//     width: 40%;
+//   }
+
+// .main-container {
+//     display: flex;
+//     flex-direction: column;
+//   }
+  
+//   .lefft, .rigght {
+//     flex: 1;
+//   }
+
+// ______________________________________________________
+
+// .container-purple {
+//     background-color: $purple2;
+//     border-radius: 12px;
+//     text-align: center;
+//     margin-left: 6px;
+//     margin-right: 6px;
+//     margin-bottom: 29px;
+//    }
+
+//   .h3-purple {
+//     font-size: 30px;
+//     color: $white;
+//     padding-bottom: 43px;
+//   }
+
+//   .p-purple {
+//     font-size: 16px;
+//     color: $white;
+//   }
+  
+//     .img-purple{
+//       padding-top: 8px;
+//       padding-bottom: 15px;
+//     }
+
+//     .form-box_purple {
+//       padding-bottom: 10px;
+//     }
+       
+//     .form-box_input_email {
+//       background-color: $white;
+//         padding: 18px 15px;
+//         border-radius: 30px;
+//         color: $gray;
+//         text-align: center;
+//         width: 293px;
+//         min-height: 53;
+//         margin-top: 20px;
+//       }
+//       input {
+//         font-size: 16px;
+//         width: 100%;
+//       }
+
+//       .button-purple_red {
+//         width: 293px;
+//         height: 53px;     
+//         color:$white;
+//         font-size: 16px;
+//         background-color:$red2;
+//        border-radius: 30px;
+//        text-transform: uppercase;
+
+//         }     
+
+//         .button-purple {
+//           // padding-bottom: 29px;
+//           padding-top: 10px;
+//         }
+// ______________________________________________________ 
+
+// .lefft,
+// .rigght {
+//   display: flex;
+// }
+
+// .lefft {
+//   flex-direction: column;
+// //   flex: 1;
+// }
+
+// .rigght {
+//   flex-direction: column;
+// // //   flex: 1;
+// // }
+
+// .lefft,
+// .rigght {
+//   display: flex;
+// }
+
+// .lefft {
+//   flex-direction: column;
+//   flex: 60%;
+// }
+
+// .rigght {
+//   flex-direction: column;
+//   flex: 40%;
+// }
+
+// .container {
+//     display: flex;
+//   }
+  
+//   .container_main_left,
+//   .col-right {
+//     flex: 1;
+//   }
+  
+//   .container_main_left {
+//     min-width: 763px;
+//   }
+  
+//   .col-right {
+//    flex-direction: row;
+//   }
+
+
+// .container {
+//     display: flex;
+//     flex: 1;
+//     flex-direction: row;
+//   }
+  
+//   .container_main-general {
+//     display: flex;
+//     flex-direction: row;
+//   }
+  
+//   .container_main_left {
+//     min-width: 763px;
+//   }
+  
+//   .col-right {
+//     flex-direction: column;
+//     flex-wrap: nowrap; /* Змінивши цей рядок */
+//     overflow: auto;
+//   }
+  
+//   .container-purple {
+//     background-color: $purple2;
+//     border-radius: 12px;
+//     text-align: center;
+//     margin-left: 6px;
+//     margin-right: 6px;
+//     margin-bottom: 29px;
+//    width: 382px;
+//   height: 483px;
+//   }
+  
+//   .h3-purple {
+//     font-size: 30px;
+//     color: $white;
+//     padding-top: 0px;
+//     padding-bottom: 25px;
+//     margin: 0px;
+//   }
+  
+//   .p-purple {
+//     font-size: 16px;
+//     color: $white;
+//   }
+  
+//     .img-purple{
+//       padding-top: 50px;
+//       padding-bottom: 0px;
+//       min-width: 225px;
+//       min-width: 136px;
+//     }
+  
+//     .form-box_purple {
+//       padding-bottom: 10px;
+//     }
+       
+//     .form-box_input_email {
+//       background-color: $white;
+//         padding: 18px 15px;
+//         border-radius: 30px;
+//         color: $gray;
+//         text-align: center;
+//         width: 293px;
+//         min-height: 53;
+//         margin-top: 20px;
+//       }
+//       input {
+//         font-size: 16px;
+//         width: 100%;
+//       }
+  
+//       .button-purple_red {
+//         width: 293px;
+//         height: 53px;     
+//         color:$white;
+//         font-size: 16px;
+//         background-color:$red2;
+//        border-radius: 30px;
+//        text-transform: uppercase;
+  
+//         }     
+  
+//         .button-purple {
+//           padding-top: 10px;
+//         }
+  
+  
+        
+//         .col-right .col {
+//           display: flex;
+//           flex-direction: column; 
+//         }
+        
+  
+//         .container-purple {
+//           display: flex;
+//           flex-direction: column; 
+//         }
+  
+//         .h3 {
+//           padding-top: 0;
+//         }
+  
+    //    .container_main {
+    //     display: flex;
+    //     gap: 25px;
+    //    }
+
+    // .content-box_second {
+    //     flex-direction: column;
+    //     flex-wrap: nowrap;
+    //     max-width: 382px
+      
+    // }
+
+
+    .container_main {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .col {
+        flex-wrap: nowrap;
+
+    }
+
+    .col-left {
+        // flex: 0 0 630px;
+        flex: 0 0 70%;
+    }
+
+    .col-right_col {
+        width: initial;
+        flex-direction: column;
+        // flex: 0 0 300px;
+        flex: 0 0 30%;
+        display: flex;
+    }
+
+.container-purple {
+  background-color: $purple2;
+  border-radius: 12px;
+  text-align: center;
+  
+  margin-left: 6px;
+  margin-right: 6px;
+  width: 382px;
+  min-height: 483px;
+ 
+}
+
+.content-box__purple {
+    display: flex;
+    flex-direction: column;
+}
+
+  .h3-purple {
+    font-size: 30px;
+    color: $white;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    margin: 0px;
+  }
+  
+  .p-purple {
+    font-size: 16px;
+    color: $white;
+  }
+  
+    .img-purple{
+      padding-top: 50px;
+      padding-bottom: 0px;
+      min-width: 225px;
+      min-width: 136px;
+    }
+  
+    .form-box_purple {
+      padding-bottom: 10px;
+    }
+       
+    .form-box_input_email {
+      background-color: $white;
+        padding: 18px 15px;
+        border-radius: 30px;
+        color: $gray;
+        text-align: center;
+        width: 293px;
+        min-height: 53;
+        margin-top: 20px;
+      }
+      input {
+        font-size: 16px;
+        width: 100%;
+      }
+  
+      .button-purple_red {
+        width: 293px;
+        height: 53px;     
+        color:$white;
+        font-size: 16px;
+        background-color:$red2;
+       border-radius: 30px;
+       text-transform: uppercase;
+  
+        }     
+  
+        .button-purple {
+          padding-top: 10px;
+        }
+       .article {
+        width: 100%;
+    }
+
+    .col-right {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .h3 {
+        padding-top: 0 ;
+    }
+   
+    .list-item_lifirst{
+        order: -1; 
+        padding-bottom: 34px;  
+    }
+    
+    .container-purple {
+        order: 0; 
+    }
+    
+    .container-article {
+        order: 1; 
+    }
+
+    
+    // .container {
+    //     max-width: 1200px;
+    //     margin: auto;
+    //     padding-left: 50px;
+    //     padding-right: 50px;
+    //     width: 100%;
+    //   }
+
+    .text-box_list :hover {
+      color: $red2;
+    }
+
+    .button-container :hover {
+      background-color: $red2; 
+      color: white;
+    }
+
+
+
+
+   
+
+    .halil:hover .halil2 {
+       color: blue;
+    }
+
+    .halil:hover .list-item_list-li{
+       color: red;
+    }
+
+    .halil:hover .span-nom{
+       color: blue;
+    }
+
+    .round-button :hover .button_svg path {
+      fill: white; /* Change this to the color you want on hover */
+    }
+
+
+   

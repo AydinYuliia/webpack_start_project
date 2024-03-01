@@ -1,0 +1,163 @@
+
+   // ______________________________________________
+
+
+// .container {
+//   display: flex;
+//   flex: 1;
+//   flex-direction: row;
+// }
+
+// .container_main-general {
+//   display: flex;
+//   flex-direction: row;
+// }
+   // ______________________________________________
+
+// .container_main_left {
+//   min-width: 763px;
+// }
+
+// .col-right {
+//  flex-direction: column;
+//  flex-wrap:nowrap;
+//  overflow: auto;
+// }
+
+
+// .col-right{
+// flex-direction: column;   
+// flex-wrap:nowrap;
+// }
+
+// .container-purple {
+  // background-color: $purple2;
+  // border-radius: 12px;
+  // text-align: center;
+  
+//   margin-left: 6px;
+//   margin-right: 6px;
+//   margin-bottom: 29px;
+//   width: 382px;
+//   height: 483px;
+//   margin: 0
+// }
+
+// // .h3-purple {
+//   font-size: 30px;
+//   color: $white;
+//   padding-top: 0px;
+//   padding-bottom: 25px;
+//   margin: 0px;
+// }
+//    // ______________________________________________
+// .p-purple {
+//   font-size: 16px;
+//   color: $white;
+// }
+
+//   .img-purple{
+//     padding-top: 50px;
+//     padding-bottom: 0px;
+//     min-width: 225px;
+//     min-width: 136px;
+//   }
+
+//   .form-box_purple {
+//     padding-bottom: 10px;
+//   }
+     
+//   .form-box_input_email {
+//     background-color: $white;
+//       padding: 18px 15px;
+//       border-radius: 30px;
+//       color: $gray;
+//       text-align: center;
+//       width: 293px;
+//       min-height: 53;
+//       margin-top: 20px;
+//     }
+//     input {
+//       font-size: 16px;
+//       width: 100%;
+//     }
+
+//     .button-purple_red {
+//       width: 293px;
+//       height: 53px;     
+//       color:$white;
+//       font-size: 16px;
+//       background-color:$red2;
+//      border-radius: 30px;
+//      text-transform: uppercase;
+
+//       }     
+
+//       .button-purple {
+//         padding-top: 10px;
+//       }
+
+
+      
+//       .col-right .col {
+//         display: flex;
+//         flex-direction: column; 
+//       }
+      
+
+//       .container-purple {
+//         display: flex;
+//         flex-direction: column; 
+//         order: 1;
+//       }
+  // ______________________________________________
+      // .h3 {
+      //   padding-top: 0;
+      // }
+  // ______________________________________________
+     
+      
+      // .container-purple {
+      //   display: flex;
+      //   flex-direction: column; 
+      //   order: 1; /* Змінив порядок, щоб зробити .container-purple другим елементом */
+      // }
+      
+
+
+
+      // ______________________________________________
+      // .list-item {
+      //   order: 0; 
+      // }
+      
+      // .container-article {
+      //   order: 2;
+      // }
+      
+      // .form-box__purple {
+      //   order: 1; 
+      // }
+
+      .container_main {
+         padding-top: 42px;
+         gap: 25px;
+     }
+
+     .container-purple {
+      padding-bottom: 0;
+     }
+
+   //   .container {
+   //    max-width: 1200px;
+   //    margin: auto;
+   //    padding-left: 100px;
+   //    padding-right: 100px;
+   //    width: 100%;
+   //  }
+
+   .list-item_lifirst{
+      order: -1; 
+      padding-bottom: 0;  
+  }
+  

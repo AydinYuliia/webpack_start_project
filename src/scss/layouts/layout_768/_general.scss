@@ -1,0 +1,161 @@
+.col-right {
+    display: flex;
+  }
+  
+  .col-right {
+    flex: 1; 
+  }
+  
+  .list-item, .article {
+    width: 50%; 
+    box-sizing: border-box; 
+    padding: 0 10px; 
+  }
+
+  .h3-article{
+    font-size: 20px;
+    margin-top: 0px;
+    padding-top: 61px;
+  }
+  .h3{
+    font-size: 20px;
+    padding-top: 61px;
+  }
+
+  .article-list {
+    // margin-top: 0px;
+    padding-top: 25px;
+  }
+
+  .button-container {
+    padding-top: 47px;
+  }
+
+
+//   _________________________________________
+// .container-purple {
+//     display: flex;
+//     flex-direction: column;
+//     margin-bottom: 0px;
+//   }
+  
+//   .column-left {
+//     flex: 2;
+    
+//   }
+
+  
+//   .column-right {
+//     flex: 1;
+//     display: flex;
+//     align-items: center; 
+//     justify-content: center;
+//     margin-right: 40px;
+    
+//   }
+
+//   .column-left,
+// .column-right {
+//   flex-grow: 1; 
+//   padding: 0 10px; 
+//   padding-bottom: 25px;
+// }
+
+// .h3-purple {
+//     font-size:30px; 
+//     padding-top: 24px;
+// }
+
+// .p-purple {
+//     font-size: 18px;
+// }
+
+// .img-purple {
+//     min-width: 270px;
+//     min-height:146px;
+// }
+
+// .content-box__purple {
+//   display: flex;
+//   flex-direction: row-reverse;
+//   justify-content: space-between;
+  
+// }
+
+// .column-left,
+// .column-right {
+//   flex: 1; 
+//   flex-grow: 1;
+// }
+
+
+
+.container-purple {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0px;
+}
+
+.column-left {
+  flex: 1; /* Кожна колонка займатиме половину ширини */
+  margin-right: 20px; /* Доданий відступ між колонками */
+}
+
+.column-right {
+  flex: 1; /* Кожна колонка займатиме половину ширини */
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  margin-left: 20px; /* Доданий відступ між колонками */
+}
+
+.column-left,
+.column-right {
+  padding: 0 10px; 
+  padding-bottom: 25px;
+}
+
+.h3-purple {
+  font-size: 30px; 
+  padding-top: 24px;
+}
+
+.p-purple {
+  font-size: 18px;
+}
+
+.img-purple {
+  min-width: 270px;
+  min-height: 146px;
+}
+
+.content-box__purple {
+  display: flex;
+  justify-content: space-between; /* Вирівнюємо колонки по краях */
+  flex-direction: row-reverse;
+}
+.column-left {
+  margin-right: 0;
+}
+// .footer {
+//   display: none
+// }
+
+
+.col-right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.article {
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
